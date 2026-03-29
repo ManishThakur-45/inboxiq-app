@@ -93,7 +93,7 @@ export default function App() {
         return;
       }
 
-      const response = await fetch('http://localhost:5000/emails/inbox', {
+      const response = await fetch('https://inboxiq-app.onrender.com/emails/inbox', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

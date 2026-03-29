@@ -51,7 +51,7 @@ export default function LoginPage({ onNavigate }) {
       setGoogleLoading(true);
       setError('');
 
-      window.location.href = 'http://localhost:5000/auth/google';
+      window.location.href = 'https://inboxiq-app.onrender.com/auth/google';
     } catch (err) {
       setGoogleLoading(false);
       setError(err.message);
